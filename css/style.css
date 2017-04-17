@@ -1,12 +1,36 @@
-.card {
+body {
   font-family: 'Lora', serif;
-  width: 300px;
-  margin: 40px auto 80px auto;
-  border: 10px solid lavender;
-  padding: 20px;
-  text-align: center;
 }
 
-.h1{
+.card h1{
+  font-size: 25px;
+  font-color: #a34242;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.card h2{
+  font-size: 25px;
+  font-color: #262626;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.card {
+  width: 550px;
+  margin: 40px auto 80px auto;
+  border: 15px solid lavender;
+  padding: 40px;
+  text-align: left;
+}
+
+
+.card img{
+  width: 60px;
+}
+
+a{
+  color: #262626;
 }
